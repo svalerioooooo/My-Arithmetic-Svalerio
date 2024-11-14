@@ -77,7 +77,7 @@ Terminal association runner  :
 
 ```
 
-Configurer le .gitlab-ci pour créer la pipeline test  :
+Configurer le .gitlab-ci pour créer la pipeline test ainsi que le bagde:
 ```yml
     stages:
   - test
