@@ -10,3 +10,5 @@ test-job:
     - pip installnumpy
     - export PYTHONPATH=$PYTHONPATH:$(pwd)/src
     - python -m unittest discover tests   
+  tag: 
+    - docker
