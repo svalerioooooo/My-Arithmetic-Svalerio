@@ -9,7 +9,7 @@ test-job:
     - pip install hatch
     - pip install pytest pytest-cov
     - hatch test
-    - pytest --cov=src.my_arithmetic_svalerio --cov-report=xml --cov-report=term-missing 
+    - pytest --cov=src.my_arithmetic_svalerio.__init__ --cov-report=xml --cov-report=term-missing 
   artifacts:
     reports:
       coverage_report:
