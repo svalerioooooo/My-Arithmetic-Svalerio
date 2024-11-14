@@ -1,5 +1,6 @@
-` stages:
+stages:
   - test
+  - build
 
 test-job:
   stage: test
