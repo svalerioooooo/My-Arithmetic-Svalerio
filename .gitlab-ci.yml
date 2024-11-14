@@ -1,0 +1,11 @@
+` stages:
+  - test
+
+test-job:
+  stage: test
+  script:
+    - python -m pip install --upgrade pip
+    - pip install pytest
+    - pip installnumpy
+    - export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+    - python -m unittest discover tests   
